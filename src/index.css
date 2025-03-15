@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+button {
+  cursor: pointer;
+}
+
+@layer utilities {
+  .box {
+    background: linear-gradient(
+      90deg,
+      rgba(171, 117, 181, 1) 7%,
+      rgba(230, 222, 245, 1) 49%,
+      rgba(148, 194, 201, 1) 87%
+    );
+  }
+  .custom-multi-shadow {
+    box-shadow: 4px 4px 8px #471069, -4px -4px 8px #2472fc, 4px -4px 8px #f76cc6,
+      -4px 4px 8px #099773;
+  }
+  .bounce-animation {
+    animation: bounceUpDown 1.5s infinite ease-in-out;
+  }
+  @keyframes bounceUpDown {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+}
+
+@theme {
+  /* COLORS... */
+  --color-soft-white: #f8f9fa;
+  --color-soft-black: #121212;
+  --color-light-gray: #d3d3d3;
+  --color-medium-gray: #a0a0a0;
+}
