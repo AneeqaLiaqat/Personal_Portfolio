@@ -60,13 +60,13 @@ const Projects = () => {
           <p className="text-medium-gray" data-aos="zoom-in">
             {project.desc}
           </p>
-          <div className="grid grid-cols-3 gap-3  mx-auto my-5 mb-12">
+          <div className="grid grid-cols-3 sm:grid-cols-3 gap-3  my-5 mb-12">
             {[1, 2, 3, 4, 5, 6].map((_, imgIndex) => (
               <img
                 key={imgIndex}
                 src={`/${project.title}/${imgIndex + 1}.png`}
                 alt={project.title}
-                className="min-w-28 sm:min-w-24 lg:min-w-30  w-full h-20 object-fit text-center rounded-md"
+                className=" min-w-24 lg:min-w-30  w-full h-20 object-fit  rounded-md"
               />
             ))}
           </div>
