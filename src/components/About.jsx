@@ -3,18 +3,17 @@ import { FaCode } from "react-icons/fa6";
 import { IoNewspaperOutline } from "react-icons/io5";
 import { LiaCertificateSolid } from "react-icons/lia";
 import { TbWorld } from "react-icons/tb";
-import { Link } from "react-router-dom";
 
 const MySkills = [
   {
     icon: <FaCode />,
-    count: 11,
+    count: "50+",
     title: "Total Projects",
     desc: "Diverse web projects.",
   },
   {
     icon: <LiaCertificateSolid />,
-    count: 7,
+    count: 5,
     title: "CERTIFICATES",
     desc: "Recognized achievements.",
   },
@@ -132,8 +131,8 @@ const About = () => {
           className="mt-4 lg:w-1/3 sm:mt-0 order-1 sm:order-2 w-full flex  justify-center sm:justify-end "
         >
           <img
-            src="https://media.istockphoto.com/id/1915382108/photo/smiling-friendly-confident-millennial-caucasian-lady-manager-teacher-in-formal-wear-with.webp?a=1&b=1&s=612x612&w=0&k=20&c=jTHPf2MKMHspKL_FAmvFsF0O_kx1AsEjoszEuIikzgU="
-            className="w-56 h-56 object-cover   rounded-full shadow-2xl  shadow-purple-900 hover:scale-105 transition"
+            src="/P1.jpeg"
+            className="w-72 h-72 object-fit  rounded-full shadow-2xl  shadow-purple-900 hover:scale-105 transition"
             alt="Profile"
           />
         </div>

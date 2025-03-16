@@ -3,11 +3,13 @@ import Projects from "./Projects";
 import Certificates from "./Certificates";
 import "aos/dist/aos.css";
 import Skills from "./Skills";
-
+import { LiaCertificateSolid } from "react-icons/lia";
+import { FaCode } from "react-icons/fa6";
+import { RiSkypeFill } from "react-icons/ri";
 const Links = [
-  { icon: "📂", text: "Projects" },
-  { icon: "📜", text: "Certificates" },
-  { icon: "📜", text: "Skills" },
+  { icon: <FaCode />, text: "Projects" },
+  { icon: <LiaCertificateSolid />, text: "Certificates" },
+  { icon: <RiSkypeFill />, text: "Skills" },
 ];
 
 const Portfolio = () => {
@@ -47,9 +49,9 @@ const Portfolio = () => {
             key={index}
             className={`${
               index === Boxindex ? "bg-purple-400" : "bg-transparent"
-            } flex flex-col items-center justify-center  cursor-pointer pb-1.5 transition-all duration-300 rounded-md p-1 sm:p-2`}
+            } flex flex-col gap-1 items-center justify-center  cursor-pointer pb-1.5 transition-all duration-300 rounded-md p-1 sm:p-2`}
           >
-            <p className="text-sm sm:text-xl">{link.icon}</p>
+            <p className="text-lg sm:text-3xl text-soft-black">{link.icon}</p>
             <p
               className={`${
                 index === Boxindex ? "text-soft-white" : "text-soft-black"

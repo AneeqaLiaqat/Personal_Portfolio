@@ -85,8 +85,8 @@ const Home = () => {
           className=" hidden md:block"
         >
           <img
-            src="/Profile.jpeg"
-            className="w-72 h-60  lg:w-72 md:h-72 shadow-2xl  rounded-full  shadow-purple-900 hover:scale-105 transition-all"
+            src="/P2.jpeg"
+            className="w-full h-full object-fit  lg:w-72 md:h-72 shadow-2xl  rounded-full  shadow-purple-900 hover:scale-105 transition-all"
             alt="Profile"
           />
         </div>
