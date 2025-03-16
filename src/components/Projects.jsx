@@ -33,7 +33,7 @@ const MyProjects = [
     link: "social-media-posts",
   },
   {
-    title: "Illustrations and Mug Prints",
+    title: "Illustrations And Mug Prints",
     desc: "Complete branding solutions including packaging and logos.",
     link: "illustrations-and-mug-prints",
   },
@@ -64,7 +64,7 @@ const Projects = () => {
             {[1, 2, 3, 4, 5, 6].map((_, imgIndex) => (
               <img
                 key={imgIndex}
-                src={`/${project.title}/${imgIndex + 1}.png`}
+                src={`/${project.title}/${imgIndex + 1}.webp`}
                 alt={project.title}
                 className=" min-w-24 lg:min-w-30  w-full h-20 object-fit  rounded-md"
               />

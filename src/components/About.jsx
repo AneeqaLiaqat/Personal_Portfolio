@@ -47,11 +47,13 @@ const About = () => {
           className="w-full  lg:w-2/3 order-2 md:order-1 mt-5 sm:mt-0"
           data-aos="fade-up"
         >
-          <h2 className="text-3xl font-bold text-white">Hello, I'm</h2>
+          <h2 className="text-3xl font-bold text-white mt-5 sm:mt-0">
+            Hello, I'm
+          </h2>
           <h3 className="text-2xl text-transparent bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text font-semibold">
             Aneeqa Liaqat
           </h3>
-          <p className="text-light-gray mt-4 leading-relaxed">
+          <p className="text-light-gray mt-2 leading-relaxed">
             I am a passionate{" "}
             <span className=" text-lg text-transparent bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text font-bold">
               Graphic Designer{" "}
