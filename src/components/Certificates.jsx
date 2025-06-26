@@ -13,7 +13,7 @@ const Certificates = () => {
         >
           <img
             data-aos="fade-right"
-            src={`/Certificates/C${index + 1}.webp`}
+            src={`/Certificates/C${index + 1}.jpeg`}
             className="w-full h-72 object-cover rounded-md"
             key={index}
           />
