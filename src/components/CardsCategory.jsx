@@ -20,9 +20,7 @@ const CardsCategory = () => {
   };
 
   const formattedCategory = formatCategory(category);
-  console.log("cat", formattedCategory);
   const imageList = images[formattedCategory] || [];
-  console.log("images", imageList);
 
   return (
     <div className="container mx-auto px-1 py-6">
