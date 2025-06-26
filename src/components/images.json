@@ -1,12 +1,12 @@
 {
   "Business Cards": [
-    "/Business Cards/1.webp",
-    "/Business Cards/2.webp",
-    "/Business Cards/3.webp",
-    "/Business Cards/4.webp",
-    "/Business Cards/5.webp",
-    "/Business Cards/6.webp",
-    "/Business Cards/7.webp"
+    "/Business Cards/1.jpeg",
+    "/Business Cards/2.jpeg",
+    "/Business Cards/3.jpeg",
+    "/Business Cards/4.jpeg",
+    "/Business Cards/5.jpeg",
+    "/Business Cards/6.jpeg",
+    "/Business Cards/7.jpeg"
   ],
   "Wedding Cards": [
     "/Wedding Cards/1.webp",
@@ -16,13 +16,16 @@
     "/Wedding Cards/5.webp",
     "/Wedding Cards/6.webp"
   ],
-  "Illustrations And Mug Prints": [
-    "/Illustrations And Mug Prints/1.webp",
-    "/Illustrations And Mug Prints/2.webp",
-    "/Illustrations And Mug Prints/3.webp",
-    "/Illustrations And Mug Prints/4.webp",
-    "/Illustrations And Mug Prints/5.webp",
-    "/Illustrations And Mug Prints/6.webp"
+  "Illustrations And Printing Material": [
+    "/Illustrations And Printing Material/1.webp",
+    "/Illustrations And Printing Material/2.webp",
+    "/Illustrations And Printing Material/3.webp",
+    "/Illustrations And Printing Material/4.webp",
+    "/Illustrations And Printing Material/5.jpeg",
+    "/Illustrations And Printing Material/6.jpeg", 
+    "/Illustrations And Printing Material/7.jpeg",
+    "/Illustrations And Printing Material/8.png",
+    "/Illustrations And Printing Material/9.PNG"
   ],
   "Logos": [
     "/Logos/1.webp",
@@ -30,7 +33,7 @@
     "/Logos/3.webp",
     "/Logos/4.webp",
     "/Logos/5.webp",
-    "/Logos/6.webp",
+    "/Logos/6.png",
     "/Logos/7.webp",
     "/Logos/8.webp",
     "/Logos/9.webp",
@@ -49,10 +52,10 @@
     "/Thumbnails/8.webp"
   ],
   "Social Media Posts": [
-    "/Social Media Posts/1.webp",
-    "/Social Media Posts/2.webp",
-    "/Social Media Posts/3.webp",
-    "/Social Media Posts/4.webp",
+    "/Social Media Posts/1.PNG",
+    "/Social Media Posts/2.jpg",
+    "/Social Media Posts/3.png",
+    "/Social Media Posts/4.PNG",
     "/Social Media Posts/5.webp",
     "/Social Media Posts/6.webp",
     "/Social Media Posts/7.webp"

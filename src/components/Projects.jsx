@@ -33,9 +33,9 @@ const MyProjects = [
     link: "social-media-posts",
   },
   {
-    title: "Illustrations And Mug Prints",
+    title: "Illustrations And Printing Material",
     desc: "Complete branding solutions including packaging and logos.",
-    link: "illustrations-and-mug-prints",
+    link: "Illustrations And Printing Material",
   },
 ];
 
