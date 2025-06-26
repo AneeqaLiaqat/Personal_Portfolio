@@ -64,7 +64,7 @@ const Projects = () => {
             {[1, 2, 3, 4, 5, 6].map((_, imgIndex) => (
               <img
                 key={imgIndex}
-                src={`/${project.title}/${imgIndex + 1}.jpeg`}
+                src={`/${project.title}/${imgIndex + 1}.webP`}
                 alt={project.title}
                 className=" min-w-24 lg:min-w-30  w-full h-20 object-fit  rounded-md"
               />

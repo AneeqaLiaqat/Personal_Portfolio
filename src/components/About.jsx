@@ -133,7 +133,7 @@ const About = () => {
           className="mt-4 lg:w-1/3 sm:mt-0 order-1 sm:order-2 w-full flex  justify-center sm:justify-end "
         >
           <img
-            src="/P1.jpeg"
+            src="/P1.webP"
             className="w-72 h-72 object-fit  rounded-full shadow-2xl  shadow-purple-900 hover:scale-105 transition"
             alt="Profile"
           />
